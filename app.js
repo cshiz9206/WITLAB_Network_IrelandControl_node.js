@@ -1,11 +1,14 @@
 
 // var java = require("java");
-// java.classpath.push("irelandController.jar");
-// java.classpath.push("C:/Users/witlab/Desktop/IrelandControl/ControlEx/irelandController.jar");
+// java.classpath.push("irelandController2.jar");
+// // java.classpath.push("C:/Users/witlab/Desktop/IrelandControl/ControlEx/irelandController.jar");
 // java.classpath.push("RXTXcomm.jar");
-// java.classpath.push("C:/Users/witlab/Desktop/IrelandControl/ControlEx/RXTXcomm.jar");
+// // java.classpath.push("C:/Users/witlab/Desktop/IrelandControl/ControlEx/RXTXcomm.jar");
 // var serialConnection = java.import('Connection.Serial');
-// var instance = new serialConnection()
+// var instance = serialConnection.getInstanceSync();
+
+// instance.connectSync();
+// instance.writeSync("0201FF4CFF01FF01FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF03");
 
 var express = require('express'); // node_modules의 express 패키지를 가져온다.
 var app = express(); //app이라는 변수에 express 함수의 변환 값을 저장한다.
