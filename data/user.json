@@ -1,0 +1,20 @@
+{
+	"set": {
+		"command": "sens",
+		"controlDevice": "3",
+		"data": [
+			1,
+			2
+		],
+		"targetDevice": "2"
+	},
+	"sens": {
+		"command": "sens",
+		"controlDevice": "3",
+		"data": [
+			1,
+			2
+		],
+		"targetDevice": "2"
+	}
+}
